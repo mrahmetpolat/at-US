@@ -1,6 +1,24 @@
-My name is Ahmet Polat. I am currently studying at RMIT University with the student number s3870017
-I am a 40 years old aspiring Information Technology student who is interested in Data Science, Artificial Intelligence, and Machine Learning.
-I an Turkish / Australian. I feel happy while doing outdoor activities with my friends and family. I love camping, fishing, hiking, kayaking, and walking in nature.
-I also love team sports, solving a puzzle and relaxing weekends.
-My interest in IT started when I was a kid. It was triggered by the science fiction movies in the 1990s. I am spending most of my time on the computer since I got my computer in 2000.
-I am currently in the process to get by Bachelor's Degree in Information Technology. Besides, I am enrolled in various certificates to improve my knowledge in Machine Learning and Data Science.
+Name  - Ahmet Polat
+Student ID: S3870017
+Ahmet is a 40 years old aspiring Information Technology student who is interested in Data Science, Artificial Intelligence, and Machine Learning.
+He feels happy while doing outdoor activities with my friends and family. He loves camping, fishing, hiking, kayaking, and walking in nature.
+He also love team sports, solving a puzzle and relaxing weekends.
+His interest in IT started when he was a kid. It was triggered by the science fiction movies in the 1990s.He is spending most of my time on the computer since he got his first computer in 2000.
+He is currently in the process to get by Bachelor's Degree in Information Technology. Besides, he is enrolled in various certificates to improve his knowledge in Machine Learning and Data Science.
+
+
+
+Name: Jack Sharples
+Student ID: S3871455
+Jack is a manager of a restaurant in Melbourne, Australia. He is currently trying to expand his education and secure his place in the workforce with the recent events of COVID-19.
+He is an avid video gamer and he enjoys tending to his plants when the sun is out. His interest in IT is both out of passion and nesscessity.
+
+
+
+Name – Rob Harris
+Student ID – S2086480
+Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
+The last 13 years he has specialised in Risk Management, during this time he supported a big four bank&#39;s digital business to deliver security enhancement
+to internet banking and the implementation of the first mobile app and further iterations.
+His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
+enabling him to educate his family ensure that they are protected.
