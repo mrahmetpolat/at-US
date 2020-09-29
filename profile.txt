@@ -1,4 +1,4 @@
-Name  - Ahmet Polat
+Name: Ahmet Polat
 Student ID: S3870017
 Ahmet is a 40 years old aspiring Information Technology student who is interested in Data Science, Artificial Intelligence, and Machine Learning.
 He feels happy while doing outdoor activities with my friends and family. He loves camping, fishing, hiking, kayaking, and walking in nature.
@@ -15,7 +15,7 @@ He is an avid video gamer and he enjoys tending to his plants when the sun is ou
 
 
 
-Name – Rob Harris
+Name: Rob Harris
 Student ID – S2086480
 Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
 The last 13 years he has specialised in Risk Management, during this time he supported a big four bank&#39;s digital business to deliver security enhancement
