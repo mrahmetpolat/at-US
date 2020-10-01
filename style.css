@@ -1,41 +1,36 @@
-html,body,div,h1,h2,h3,h4,p,img,ul,li,article,header {
-
-font:inherit;
-font-family: helvetica;
-margin: 0px auto;
-}
-
 html{
-    background:#0B0C10;
+    background:#7F909A;
     font-family: helvetica;
-    font-size: 16px;
-    color: #C5C6C7;
   }
-
 header {
     text-align: center;
-    background: url(images/bg2.jpg );
+    background: #17252A;
     background-size: cover;
-    max-width: 920px;
+    max-width: 940px;
     margin: 0px auto;
-    display:block;
-}
+    margin-bottom: 0px;
+  }
   body{
     font-size: 16px;
     color: white;
     text-align: justified;
     font-weight: 500;
+    position: relative;
   }
+
+  article {
+    margin-top: 0px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    max-width:900px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #17252A;
+  }
+
   p {
     color: #C5C6C7;
     font-size: 16px;
     line-height:  21px;
-  }
-
-  p1 {
-    color: #C5C6C7;
-    font-size: 12px;
-    line-height:  20px;
   }
 
   .details {
@@ -44,7 +39,7 @@ header {
 
 
   .active {
-    color: #66FCF1;
+    color: #ED6639;
   }
   .address {
     color: white;
@@ -54,29 +49,21 @@ header {
     font-family: "Quicksand",helvetica;
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: white;
   }
 
   h2 {
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 2px;
-    color: #C5C6C7;
-  }
-
-  h3a {
-    font-size: 15px;
-    font-weight: 500;
-
-    margin-bottom: 2px;
-    color: #45A29E;
+    margin-bottom: 1px;
+    color:white;
   }
 
   h3 {
     font-size: 20px;
     margin-bottom: 2px;
-    color: #45A29E;
+    color: white;
     font-weight: 600;
   }
 
@@ -84,14 +71,16 @@ header {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 4px;
-    color: #45A29E;
+    color:white;
   }
 
 
   img {
-    margin: 40px 0px 0px 0px;
-    border: 2px solid #45A29E;
-    border-radius: 10px;
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
 
   ul {
@@ -106,13 +95,61 @@ header {
     color: #66FCF1;
   }
 
-  article {
-    border-top: 1px solid rgba(255,255,255,0.2);
-    max-width:880px;
-    padding: 20px;
-    margin: 0 auto;
-    background: rgba(50,50,50,0.5);
+  footer{
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    max-width:920px;
+    margin: 0px auto;
+    bottom:0px;
+
   }
+
+  .column {
+  float: left;
+  width: 49%;
+  margin-bottom: 5px;
+  padding: 0 4px;
+
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin: 4px;
+}
+
+.container {
+  padding: 0 16px;
+  height: 500px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #66FCF1;
+}
+
+.button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4px;
+  position: bottom;
+
+
+}
+.button:hover {
+  background-color: #66FCF1;
+}
 
 /* Following styles will kick in on mobile devices*/
   @media (max-width: 500px) {
