@@ -2,6 +2,16 @@ html{
     background:#7F909A;
     font-family: helvetica;
   }
+  /*navigation are for the menu items   */
+  .nav{
+    width: 900px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0px auto;
+    overflow: auto;
+  }
+
+/* Header section where group logo & links are located  */
 header {
     text-align: center;
     background: #17252A;
@@ -10,6 +20,7 @@ header {
     margin: 0px auto;
     margin-bottom: 0px;
   }
+
   body{
     font-size: 16px;
     color: white;
@@ -29,44 +40,58 @@ header {
 
   p {
     color: #C5C6C7;
-    font-size: 16px;
+    font-size: 14px;
     line-height:  21px;
   }
 
-  .details {
+  p.refs {
+    font-size: 14px;
     color: #C5C6C7;
+    font-style: italic;
+    }
+
+    p.underline {
+      text-decoration: underline;
+      }
+
+/*--------------------- CLASS STYLES--------------------------*/
+  .reference {
+    color: #C5C6C7;
+    font-style: italic;
   }
 
-
+  /* active page link colour to be changed   */
   .active {
     color: #ED6639;
   }
+  /* inactive page link colour to be changed   */
   .address {
     color: white;
   }
-
+  /*Heading 1 Style */
   h1 {
     font-family: "Quicksand",helvetica;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 1px;
     color: white;
   }
+    /*Heading 2 Style */
 
   h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 1px;
     color:white;
   }
-
+  /*Heading 3 Style */
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 2px;
     color: white;
     font-weight: 600;
   }
-
+  /*Heading 4 Style */
   h4 {
     font-size: 16px;
     font-weight: 500;
@@ -74,7 +99,7 @@ header {
     color:white;
   }
 
-
+  /*inserted image details */
   img {
   display: block;
   padding-top: 10px;
@@ -82,60 +107,82 @@ header {
   margin-right: auto;
   width: 50%;
   }
-
-  ul {
+  /* Address link  details */
+  ul.menu {
     padding: 10px;
     background: rgba(0,0,0,0.5);
     color: #66FCF1;
   }
-
-  li {
+    /*Sort the address link side by side as */
+  li.menu {
     display: inline;
     padding: 0px 20px 0px 20px;
     color: #66FCF1;
   }
+  /* change the colour of background  while hoverng over the menu item*/
+  li.menu:hover{
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
 
+  }
+/*-----------------------------------FOOTER----------------------------------*/
+  /*footer style code*/
   footer{
     padding: 10px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
     color: white;
     text-align: center;
     max-width:920px;
     margin: 0px auto;
     bottom:0px;
-
   }
+
+/* ------------------------------------CARD CLASSES-----------------------------------*/
 
   .column {
   float: left;
   width: 49%;
   margin-bottom: 5px;
   padding: 0 4px;
+  }
+  .column2 {
+  float: left;
+  width: 99%;
+  margin-bottom: 5px;
+  padding: 0 4px;
+  }
 
-
-}
-
-.card {
+  .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   margin: 4px;
-}
-
-.container {
+  }
+  .row{
+  height: auto;
+  }
+  .container {
   padding: 0 16px;
-  height: 500px;
-}
 
-.container::after, .row::after {
+  }
+
+  .container2 {
+    padding: 0 16px;
+    height: 500px;
+  }
+  .itWork{
+    text-align: left;
+  }
+
+  .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
-}
+  }
 
-.title {
+  .title {
   color: #66FCF1;
-}
-
-.button {
+  }
+  /*----------------------BUTTON DESIGN ---------------------  */
+  .button {
   border: none;
   padding: 8px;
   color: white;
@@ -143,13 +190,44 @@ header {
   text-align: center;
   width: 100%;
   margin-bottom: 4px;
-  position: bottom;
+  }
+  .button:hover {
+    background-color: #66FCF1;
+  }
 
 
+.icon2 {
+  max-height: 30px;
+  max-width: 54px;
+  display: inline-block;
 }
-.button:hover {
-  background-color: #66FCF1;
+/*--------------------TABLE DESIGN----------------------------*/
+/* Table will be placed to fit the width*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
 }
+
+/* Style table headers and table data */
+th {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+}
+ td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+
+
 
 /* Following styles will kick in on mobile devices*/
   @media (max-width: 500px) {

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+<!-- language for the page -->
 <html lang="en">
 <head>
+<!-- title for the page -->
 <title>@US - Assignment 2</title>
+<!--This code shoule be included in all website for responsive websites https://www.w3schools.com/css/css_rwd_viewport.asp-->
 <meta name="viewport" content="width=device-width"/>
-<meta name="description" content="ePortfolio for Ahmet Polat"/>
+<meta name="description" content="Assignment2 webpage of @Us"/>
 <meta charset="UTF-8">
+<!--Style location-->
 <link type="text/css" rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -13,190 +17,139 @@
 <body>
   <header>
     <img src="images/logo.png" style = "height:200px;">
-
-    <ul>
-      <li><a class="active" href="index.html">Me and IT</a></li>
-      <li><a class="address" href="idealjob.html">Ideal Job</a></li>
-      <li><a class="address" href="personal.html">Personal Profile</a></li>
-      <li><a class="address" href="projectidea.html">Project Idea</a></li>
-    </ul>
+    <div class="nav"
+      <ul class="menu">
+        <li class="menu"><a class="active" href="index.html">Who are we?</a></li>
+        <li class="menu"><a class="address" href="industryData.html">Industry Data</a></li>
+        <li class="menu"><a class="address" href="itWork.html">IT Work</a></li>
+        <li class="menu"><a class="address" href="itTechnologies.html">IT Technologies</a></li>
+        <li class="menu"><a class="address" href="projectidea.html">Project Idea</a></li>
+      </ul>
+    </div>
   </header>
   <article>
-    <h3>Groups Members of @US</h3>
+      <!-- ----------------------------------THE SECTION ABOUT @Us--------------------------------------------- -->
+        <div class="row">
+          <div class="column2">
+            <div class="card">
+              <div class="container" height : 100px>
+                <h3>Who are we?</h3>
+                <p>The story behind the name should be here</p><br><br><br><br><br><br>
 
+                <p class="underline"> Please click the icons to access our Github Repository & Canvas Page :  </p>
+                <p>
+                Github Repository : <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a><br>
+                <!--Link to our Canvas Page -->
+                RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" height="20px" class = "icon2"></a></p>
+                </div>
+            </div>
+          </div>
 
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Rob Harris </h2>
-        <p class="title">Student ID : S2086480</p>
-        <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
-        <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-            and the implementation of the first mobile app and further iterations.
-            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-            enabling him to educate his family ensure that they are protected.</p>
-            <br><br>
+        <h3>Groups Members of @US</h3>
 
-        <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
-        <button  class="button" >Personal Website</button>
-      </form>
+      <!-- ----------------------------------ROB's information--------------------------------------------- -->
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <div class="container">
+            <h2>Rob Harris </h2>
+            <p class="title">Student ID : S2086480</p>
+            <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
+            <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
+                The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
+                and the implementation of the first mobile app and further iterations.
+                His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
+                enabling him to educate his family ensure that they are protected.</p>
+                <br><br>
+
+            <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
+            <button  class="button" >Personal Website</button>
+          </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------------AHMET's information--------------------------------------------- -->
+
+      <div class="column">
+        <div class="card">
+          <img src="images/ahmet.jpg" alt="Ahmet" style="width:95%" align:"center">
+          <div class="container">
+            <h2>Ahmet Polat </h2>
+            <p class="title">Student ID : S3870017</p>
+            <a class="title" href="mailto:s3870017@student.rmit.edu.au" >Email :s3870017@student.rmit.edu.au</a><br><br>
+            <p>Ahmet is a 40 years old aspiring Information Technology student who is interested in Data Science, Artificial Intelligence, and Machine Learning.
+              He feels happy while doing outdoor activities with my friends and family. He loves camping, fishing, hiking, kayaking, and walking in nature.
+              He also love team sports, solving a puzzle and relaxing weekends.
+              His interest in IT started when he was a kid. It was triggered by the science fiction movies in the 1990s.He is spending most of my time on the computer since he got his first computer in 2000.
+              He is currently in the process to get by Bachelor's Degree in Information Technology. Besides, he is enrolled in various certificates to improve his knowledge in Machine Learning and Data Science.</p>
+
+            <form action="https://mrahmetpolat.github.io/myprofile//">
+            <button  class="button" >Personal Website</button>
+          </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="images/ahmet.jpg" alt="Ahmet" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Ahmet Polat </h2>
-        <p class="title">Student ID : S3870017</p>
-        <a class="title" href="mailto:s3870017@student.rmit.edu.au" >Email :s3870017@student.rmit.edu.au</a><br><br>
-        <p>Ahmet is a 40 years old aspiring Information Technology student who is interested in Data Science, Artificial Intelligence, and Machine Learning.
-    He feels happy while doing outdoor activities with my friends and family. He loves camping, fishing, hiking, kayaking, and walking in nature.
-    He also love team sports, solving a puzzle and relaxing weekends.
-    His interest in IT started when he was a kid. It was triggered by the science fiction movies in the 1990s.He is spending most of my time on the computer since he got his first computer in 2000.
-    He is currently in the process to get by Bachelor's Degree in Information Technology. Besides, he is enrolled in various certificates to improve his knowledge in Machine Learning and Data Science.</p>
 
-        <form action="https://mrahmetpolat.github.io/myprofile//">
-        <button  class="button" >Personal Website</button>
-      </form>
+    <!-- ----------------------------------JOHN's information--------------------------------------------- -->
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/rob.JPG" alt="John" style="width:95%" align:"center">
+          <div class="container">
+            <h2>John Wilkins </h2>
+            <p class="title">Student ID : S3864587</p>
+            <a class="title" href="mailto:s3864587@student.rmit.edu.au" >Email :s3864587@student.rmit.edu.au</a><br><br>
+            <p>With an affinity for information technologies from an early age, John has lent himself organically to assisting others with basic troubleshooting in otherwise unrelated contexts, such as at work and home.
+              His tactile/kinesthetic learning style and Ravenclaw hogwarts house make him best suited to a hands-on application of data-heavy pursuits, such as data analysis or software design.
+              This can complement others' expertise in other fields relating to project work, such as co-ordination, marketing and design, or record keeping.</p>
+
+            <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
+            <button  class="button" >Personal Website</button>
+          </form>
+          </div>
+        </div>
+      </div>
+<!-- ----------------------------------JACK's information--------------------------------------------- -->
+      <div class="column">
+        <div class="card">
+          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <div class="container">
+            <h2>Jack Sharples </h2>
+            <p class="title">Student ID : S3871455</p>
+            <a class="title" href="mailto:s3871455@student.rmit.edu.au" >Email :s3871455@student.rmit.edu.au</a><br><br>
+            <p>Jack is 26 and currently a manager at a restaurant in Melbourne, Australia. He is currently trying to expand his education and secure his place in the workforce with the recent events of COVID-19.
+        He is an avid video gamer and he enjoys tending to his plants when the sun is out. His interest in IT is both out of passion and nesscessity.</p>
+            <form action="https://jjacksharples.github.io/jjacksharples.githhub.io/">
+            <button  class="button" >Personal Website</button>
+          </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Rob Harris </h2>
-        <p class="title">Student ID : S2086480</p>
-        <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
-        <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-            and the implementation of the first mobile app and further iterations.
-            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-            enabling him to educate his family ensure that they are protected.</p>
 
-        <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
-        <button  class="button" >Personal Website</button>
-      </form>
+    <!-- ----------------------------------LUKE's information--------------------------------------------- -->
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <div class="container">
+            <h2>Luke Harding Smith </h2>
+            <p class="title">Student ID : S3872219</p>
+            <a class="title" href="mailto:s3872219@student.rmit.edu.au" >Email :s3872219@student.rmit.edu.au</a><br><br>
+            <p>Luke currently works in IT (has for about a year and a half): in Helpdesk Support and IT Administration for a Group (Parent Company)
+              Support Centre for over 200 nationwide automotive panel (accident repair) and mechanical repair centres.
+              Luke’s fills his free time with playing basketball, casual video gaming and listening to music.
+              His interest in IT is based on the belief it is an ever-expanding, ever evolving and ever-adaptive industry and he would like to progress in his current career.</p>
+
+          </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Rob Harris </h2>
-        <p class="title">Student ID : S2086480</p>
-        <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
-        <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-            and the implementation of the first mobile app and further iterations.
-            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-            enabling him to educate his family ensure that they are protected.</p>
-
-        <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
-        <button  class="button" >Personal Website</button>
-      </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Rob Harris </h2>
-        <p class="title">Student ID : S2086480</p>
-        <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
-        <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-            and the implementation of the first mobile app and further iterations.
-            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-            enabling him to educate his family ensure that they are protected.</p>
-
-        <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
-        <button  class="button" >Personal Website</button>
-      </form>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
-      <div class="container">
-        <h2>Rob Harris </h2>
-        <p class="title">Student ID : S2086480</p>
-        <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
-        <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-            and the implementation of the first mobile app and further iterations.
-            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-            enabling him to educate his family ensure that they are protected.</p>
-
-        <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
-        <button  class="button" >Personal Website</button>
-      </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-    <h4>Name – John Wilkins</h4>
-    <h5> Student ID – S3864587</h5>
-    <p>
-      <a class="active" href="index.html">Personal Website</a>
-    </p>
-
-    <p> With an affinity for information technologies from an early age, John has lent himself organically to assisting others with basic troubleshooting in otherwise unrelated contexts, such as at work and home.
-      His tactile/kinesthetic learning style and Ravenclaw hogwarts house make him best suited to a hands-on application of data-heavy pursuits, such as data analysis or software design.
-      This can complement others' expertise in other fields relating to project work, such as co-ordination, marketing and design, or record keeping.
-
-    </p>
-
-
-
-    <h4>Name – Jack Sharples</h4>
-    <h5> Student ID – S3871455</h5>
-    <p>
-      <a class="active" href="index.html">Personal Website</a>
-    </p>
-
-
-    <p> Jack is 26 and currently a manager at a restaurant in Melbourne, Australia. He is currently trying to expand his education and secure his place in the workforce with the recent events of COVID-19.
-He is an avid video gamer and he enjoys tending to his plants when the sun is out. His interest in IT is both out of passion and nesscessity.
-    </p>
-
-
-    <h4>Name – Luke Harding-Smith </h4>
-    <h5> Student ID – S3872219</h5>
-    <p>
-      <a class="active" href="index.html">Personal Website</a>
-    </p>
-
-    <p> Luke currently works in IT (has for about a year and a half): in Helpdesk Support and IT Administration for a Group (Parent Company) Support Centre for over 200 nationwide automotive panel (accident repair) and
-mechanical repair centres.
-Luke’s fills his free time with playing basketball, casual video gaming and listening to music.
-His interest in IT is based on the belief it is an ever-expanding, ever evolving and ever-adaptive industry and he would like to progress in his current career.
-    </p>
-
-
-
   </article>
   <article>
     <h3>Interest in IT?</h3>
@@ -219,12 +172,14 @@ His interest in IT is based on the belief it is an ever-expanding, ever evolving
 
   </article>
 
-<footer>
-    <&copy 2020 Copyright of this page belongs to member of @US group.
-    <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a>
-    <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/canvas.jpg" height="20px"></a><br>
-
-</footer>
+  <footer>
+      <!--Copyright -->
+      &copy 2020 Copyright of this page belongs to member of @US group.<br>
+      <!--Link to our repository -->
+      Github Repository : <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a>
+      <!--Link to our Canvas Page -->
+      RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" height="20px" class = "icon2"></a><br>
+  </footer>
 
 
 </body>
