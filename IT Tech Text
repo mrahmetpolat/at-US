@@ -4,14 +4,19 @@ What is the likely impact? (300 words) What is the potential impact of this deve
 
 How will this affect you? (300 words) In your daily life, how will this affect you? What will be different for you? How might this affect members of your family or your friends?
 
+* denotes a marker where a reference might be needed.
+** denotes a marker where more than one reference can be used.
+
 Cybersecurity
 	1 What does it do?
-		Cybersecurity is the term used for reducing the risk of access to digital systems over the internet*. It involves encrypting the signals sent over the internet*, creating systems that are harder to access for unauthorised individuals, as well as more difficult to automate attempts to access (cryptography). In this way, it secures data at three points - the end user's machine, the server sending the data, and the infrastructure that transmits it.
+		Cybersecurity is the term used for reducing the risk of access to digital systems over the internet*. It involves encrypting the signals sent over the internet*, creating systems that are harder to access for unauthorised individuals*, as well as more difficult to automate attempts to access (cryptography). In this way, it secures data at three points - the end user's machine, the server sending the data, and the infrastructure that transmits it.
+		Cybersecurity is vital for modern infrastructure, as it prevents forseeable attempts at compromising secure data, such as customer records, proprietary technology, trade secrets, and other vulnerable or personal information.
+		Cybersecurity assets include encryption 
 	2 What is the likely impact?
 	3 How will this affect you?
 
 Machine Learning
-	1 What does it do? Machine learning is artificial intelligence, wherein massive amounts of data are compared to create probabilities, used in or as decision making. 
+	1 What does it do? Machine learning is artificial intelligence, wherein massive amounts of data are compared to create probabilities, used in or as decision making. It usually involves either 
 	specific techniques
 	artificial general intelligence
 	neural networks
@@ -26,8 +31,15 @@ Machine Learning
 	2 What is the likely impact?
 	3 How will this affect you?
 
+Up to ~540 words for section 1 NLP. 1200 is still less than you'd think, but perhaps more than I, personally, thought.
 Natural Language processing
 	1 What does it do?
+	Natural language processing is the study of human language as it can be understood by computers - words and their grammatical context being put into a strict logic, but also more importantly strict logic that allows for the understanding of more fuzzy logic words and their grammatical context.
+	Natural language processing has its challenges, in that the languages that real people use do not often conform to formal language structure*. If they did, then translating them into data that a computer can process for its own tasks would, hypothetically, be roughly as simple as converting a program from one language to another. Attempts to push real-life language into unambiguous, perfectly rational and logical form, have mostly failed so far**, and so natural language processing is the endeavour to move in the other direction, and form a digital understanding of the language(s) that people already use, that can then be converted into a formal language.
+	Natural language processing has a rich history dating back to the 1950s, but currently uses neural natural language processing,* which involves feature learning* and machine learning methods in the style of deep neural networks* to process terabytes of examples of human text*. This would logically be supervised learning*, meaning it requires manual correction for mistakes, because unsupervised learning would be circular in logic - it would require a machine that already knows valid language in order to validate the language.
+	Natural language processing is found most commonly in daily life in personal virtual assistants, such as Alexa* or Google Assistant*. These apps listen at all times for a command which is intended to be difficult to encounter in ordinary conversation. For Alexa, it's "Hey Alexa," and for Google Assistant, it's "Okay Google." They send the recording over the internet to their respective servers for a two-step process: First the voice is run through voice recognition*, and then the voice, now text, is run through the natural language processing of the home servers. The additional computing power allows it to be done with minimal turnaround time*. The natural language processing allows the server to guess with increasing certainty what it was that the user meant for their virtual assistant to hear, and then to guess again what it was they wanted their virtual assistant to do. The virtual assistant then executes the orders sent by the home server.
+	Virtual assistants, in this manner, have a variety of functions, including playing music, turning on or off devices, setting timers and other reminders, as well as many others*. In this manner, and using only their voice, a user can enact various kinds of utilitarian tasks that can be done by appliances and other machinery in their home.
+	Natural language processing is also used by Facebook* for advertising purposes. When users have the Facebook app installed, the Facebook app listens for all words said in proximity to it, and sends that over the internet to its home servers. Similar to Alexa and Google Assistant, Facebook's high computing power allows it to use a two step process, that of converting the speech to text, and the text to language data, rather efficiently. Facebook corporate then stores this data as market research, which it uses for targeted advertisement placement as well as sellable market research for other companies.
 	gpt-3 is an example of natural language processing
 	siri, alexa, these are trained to receive and convert into data natural language processing (human language)
 	chatbots
