@@ -6,14 +6,25 @@ How will this affect you? (300 words) In your daily life, how will this affect y
 
 * denotes a marker where a reference might be needed.
 ** denotes a marker where more than one reference can be used.
+^ denotes further research needed
 
 Cybersecurity
 	1 What does it do?
 		Cybersecurity is the term used for reducing the risk of access to digital systems over the internet*. It involves encrypting the signals sent over the internet*, creating systems that are harder to access for unauthorised individuals*, as well as more difficult to automate attempts to access (cryptography). In this way, it secures data at three points - the end user's machine, the server sending the data, and the infrastructure that transmits it.
 		Cybersecurity is vital for modern infrastructure, as it prevents forseeable attempts at compromising secure data, such as customer records, proprietary technology, trade secrets, and other vulnerable or personal information.
 		Cybersecurity assets include encryption 
+		Cybersecurity often covers the following key areas:
+		The SOC (Security Operation Centre) which involves putting perimeter control processes in place to protect systems and access to the network. A small internal team with outsourced SOC functions will respond to breaches in security by isolating end user machines. Examples include someone who has been phished, where the SOC team will do diagnostics to ensure that no malicious code remains.
+		Data privacy policies ensure that controls, process, and other policies in place, are all made with respect to the tight control of data classification and handling, by [...]^ To determine the level of control that you put around it. User Access Management pertains to various clearance levels a user may have for their industry. For example, a computer system might have admin user versus end-level users, wherein admin has the ability to change settings that the end-user could not. In addition, users may have only access to data relating to their job: A risk manager would not need access to systems that had customer data, and a customer service operator would not need access to systems that had risk management data.
+		IT Governance risks and controls - SOX (Sarbanes Oxley) is an American legislature pertaining to financial reporting*. It is being implemented here*, dealing with the accuracy and completeness of IT applications and general controls from a financial reporting perspective. What is paramount here is protecting whatever sensitive data (critical encryption keys, etc) may exist in the respective industries in which cybersecurity is implemented. ^
+		Business-facing security architects - to make sure that all new initiatives have one or more cybersecurity employees involved for consideration of cybersecurity risks.
+		Cybersecurity and privacy education is essential to good cybersecurity, as the human factor is one that is easily manipulated, especially in a large workforce. In particular, payroll employees, finance. They must ensure that cybersecurity is front-of-mind for the employees, to ensure that the organisation is making decisions that are always taking into consideration data loss, particularly in sensitive industries which are heavily regulated.
+		NIST (National Institute of Standards and Technology) is an American organisation which advises its members of frameworks that can be used to increase cybersecurity*. These can be helpful for completing an asessment of an organisation for identification^ of gaps in security and risks apparent. The next phase is then to protect that information systems and assets through examples like user access management (above) or encryption of data. Then the organisation would have a provider such as RSA*^ who have action360 as a tool*. It looks for phishing sites, it scans social media for references to the organisation, it searches for any other kind of malicious sites. They would, in the detect piece, be looking at their current software, operating systems, all internal systems and determining whether there are patches that need to be put in place, or whether there are any zero-day vulnerabilities*.
+		Up to 582 words.
 	2 What is the likely impact?
+		
 	3 How will this affect you?
+	
 
 Machine Learning
 	1 What does it do? Machine learning is artificial intelligence, wherein massive amounts of data are compared to create probabilities, used in or as decision making. It usually involves either 
