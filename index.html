@@ -4,8 +4,8 @@
 <head>
 <!-- title for the page -->
 <title>@US - Assignment 2</title>
-<!--This code shoule be included in all website for responsive websites https://www.w3schools.com/css/css_rwd_viewport.asp-->
-<meta name="viewport" content="width=device-width"/>
+<!--This code should be included in all website for responsive websites https://www.w3schools.com/css/css_rwd_viewport.asp-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Assignment2 webpage of @Us"/>
 <meta charset="UTF-8">
 <!--Style location-->
@@ -16,8 +16,8 @@
 
 <body>
   <header>
-    <img src="images/logo.png" style = "height:200px;">
-    <div class="nav"
+    <img src="images/logo.png" alt="logo" style = "height:200px;">
+    <div class="nav">
       <ul class="menu">
         <li class="menu"><a class="active" href="index.html">Who are we?</a></li>
         <li class="menu"><a class="address" href="industryData.html">Industry Data</a></li>
@@ -27,12 +27,12 @@
       </ul>
     </div>
   </header>
-  <article>
-      <!-- ----------------------------------THE SECTION ABOUT @Us--------------------------------------------- -->
+
+      <!-- *************************THE SECTION ABOUT @Us********************************** -->
         <div class="row">
           <div class="column2">
             <div class="card">
-              <div class="container" height : 100px>
+              <div class="container" >
                 <h3>Who are we?</h3>
                 <p>The story behind the name should be here</p><br><br><br><br><br><br>
 
@@ -40,30 +40,33 @@
                 <p>
                 Github Repository : <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a><br>
                 <!--Link to our Canvas Page -->
-                RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" height="20px" class = "icon2"></a></p>
+                RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" alt="RMIT logo" class = "icon2"></a></p>
                 </div>
             </div>
           </div>
+  </div>
+        <h3>Groups Members of @Us</h3>
 
-        <h3>Groups Members of @US</h3>
-
-      <!-- ----------------------------------ROB's information--------------------------------------------- -->
+      <!-- ****************************ROB's information********************************* -->
 
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <img src="images/rob.JPG" alt="Rob" style="width:95%">
           <div class="container">
             <h2>Rob Harris </h2>
             <p class="title">Student ID : S2086480</p>
             <a class="title" href="mailto:s2086480@student.rmit.edu.au" >Email :s2086480@student.rmit.edu.au</a><br><br>
             <p>Rob has spent 30 years in the Financial Services industry, working across many functions, including credit, projects, training and employee relations.
-                The last 13 years he has specialised in Risk Management, during this time he supported a big four bank's digital business to deliver security enhancement to internet banking
-                and the implementation of the first mobile app and further iterations.
-                His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT,
-                enabling him to educate his family ensure that they are protected.</p>
-                <br><br>
+            The last 13 years he has specialised in Risk Management, during this time he supported a big four bank’s digital business to deliver security enhancement to internet banking and the implementation of the first mobile app and further iterations.
+            His interest in IT is two-fold, gain a better understanding of technology and its advancements to help in his current field; and, personally to gain a better understanding of IT, to enable him to educate his family to ensure that they are protected.
+            </p>
 
+            <h3>Personality Profile </h3>
+            <p>
+            His Myers-Briggs personality type is " Defender", ISFJ-T, which would see Rob as loyal and hardworking and supportive of colleagues.  He may struggle to generate new idea's or grasping abstract concepts.
+            </p>
+            <br><br>  <br><br>
             <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
             <button  class="button" >Personal Website</button>
           </form>
@@ -71,11 +74,11 @@
         </div>
       </div>
 
-      <!-- ----------------------------------AHMET's information--------------------------------------------- -->
+      <!-- *************************************AHMET's information***************************************** -->
 
       <div class="column">
         <div class="card">
-          <img src="images/ahmet.jpg" alt="Ahmet" style="width:95%" align:"center">
+          <img src="images/ahmet.jpg" alt="Ahmet" style="width:95%" >
           <div class="container">
             <h2>Ahmet Polat </h2>
             <p class="title">Student ID : S3870017</p>
@@ -86,6 +89,12 @@
               His interest in IT started when he was a kid. It was triggered by the science fiction movies in the 1990s.He is spending most of my time on the computer since he got his first computer in 2000.
               He is currently in the process to get by Bachelor's Degree in Information Technology. Besides, he is enrolled in various certificates to improve his knowledge in Machine Learning and Data Science.</p>
 
+              <p>
+                According to Myer-Briggs, Ahmet is a Turbulent Logician, INTP-T. He is a great observer and pays great attention to the details to analyse them thoroughly.
+                His personality enables him to bring a unique perspective to the table. He believes the importance of improvement.
+                His primary learning style is reflector and secondary style is a reflector, which means that he will think everything thoroughly, collect all the information and analyse them rather than rushing into it.
+              </p>
+
             <form action="https://mrahmetpolat.github.io/myprofile//">
             <button  class="button" >Personal Website</button>
           </form>
@@ -94,11 +103,11 @@
       </div>
     </div>
 
-    <!-- ----------------------------------JOHN's information--------------------------------------------- -->
+    <!-- *********************************JOHN's information*********************************** -->
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="images/rob.JPG" alt="John" style="width:95%" align:"center">
+          <img src="images/rob.JPG" alt="John" style="width:95%" >
           <div class="container">
             <h2>John Wilkins </h2>
             <p class="title">Student ID : S3864587</p>
@@ -106,23 +115,32 @@
             <p>With an affinity for information technologies from an early age, John has lent himself organically to assisting others with basic troubleshooting in otherwise unrelated contexts, such as at work and home.
               His tactile/kinesthetic learning style and Ravenclaw hogwarts house make him best suited to a hands-on application of data-heavy pursuits, such as data analysis or software design.
               This can complement others' expertise in other fields relating to project work, such as co-ordination, marketing and design, or record keeping.</p>
+            <h3>Personality Profile </h3>
+            <p>His Myers-Briggs results were INFJ-A, "Advocate", which suggests a strong moral conviction and idealism that can translate to proactive goal-setting and strong work ethic, both critical aspects of a group dynamic.
+            His tactile/kinesthetic learning style and Ravenclaw Hogwarts house, make him best suited to a hands-on application of data-heavy pursuits, such as data analysis or software design.
+            This can complement others' expertise in other fields relating to project work, such as co-ordination, marketing and design, or record keeping.
+            </p>
 
-            <form action="https://harrir10-star.github.io/ITT-Assignment-1-Rob-Harris/">
+            <form action="https://s3864587.github.io/Introduction-to-IT/">
             <button  class="button" >Personal Website</button>
           </form>
           </div>
         </div>
       </div>
-<!-- ----------------------------------JACK's information--------------------------------------------- -->
+<!-- ******************************************JACK's information*********************************************** -->
       <div class="column">
         <div class="card">
-          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <img src="images/jack.JPG" alt="Jack" style="width:95%">
           <div class="container">
             <h2>Jack Sharples </h2>
             <p class="title">Student ID : S3871455</p>
             <a class="title" href="mailto:s3871455@student.rmit.edu.au" >Email :s3871455@student.rmit.edu.au</a><br><br>
             <p>Jack is 26 and currently a manager at a restaurant in Melbourne, Australia. He is currently trying to expand his education and secure his place in the workforce with the recent events of COVID-19.
-        He is an avid video gamer and he enjoys tending to his plants when the sun is out. His interest in IT is both out of passion and nesscessity.</p>
+              He is an avid video gamer, and he enjoys tending to his plants when the sun is out. His interest in IT is both out of passion and necessity.
+            </p>
+          <h3>Personality Profile </h3>
+          <p>According to Myer-Briggs, Jack tends to be bold and creative, deconstructing and rebuilding ideas with astonishing mental agility. Although consequently, he can be argumentative and insensitive to other ideas.</p>
+  <br><br>  <br><br>  <br><br>
             <form action="https://jjacksharples.github.io/jjacksharples.githhub.io/">
             <button  class="button" >Personal Website</button>
           </form>
@@ -131,11 +149,11 @@
       </div>
     </div>
 
-    <!-- ----------------------------------LUKE's information--------------------------------------------- -->
+    <!-- *********************************************LUKE's information********************************************* -->
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="images/rob.JPG" alt="Rob" style="width:95%" align:"center">
+          <img src="images/rob.JPG" alt="Luke" style="width:95%">
           <div class="container">
             <h2>Luke Harding Smith </h2>
             <p class="title">Student ID : S3872219</p>
@@ -145,12 +163,11 @@
               Luke’s fills his free time with playing basketball, casual video gaming and listening to music.
               His interest in IT is based on the belief it is an ever-expanding, ever evolving and ever-adaptive industry and he would like to progress in his current career.</p>
 
-          </form>
-          </div>
+        </div>
         </div>
       </div>
     </div>
-  </article>
+
   <article>
     <h3>Interest in IT?</h3>
     <p>
@@ -174,11 +191,11 @@
 
   <footer>
       <!--Copyright -->
-      &copy 2020 Copyright of this page belongs to member of @US group.<br>
+      &copy; 2020 Copyright of this page belongs to member of @Us group.<br>
       <!--Link to our repository -->
       Github Repository : <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a>
       <!--Link to our Canvas Page -->
-      RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" height="20px" class = "icon2"></a><br>
+      RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" alt="RMIT logo" class = "icon2"></a><br>
   </footer>
 
 

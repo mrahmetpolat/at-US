@@ -4,8 +4,7 @@ html{
   }
   /*navigation are for the menu items   */
   .nav{
-    width: 900px;
-    padding: 20px;
+    width: 940px;
     background-color: rgba(0,0,0,0.5);
     margin: 0px auto;
     overflow: auto;
@@ -55,6 +54,8 @@ header {
       }
 
 /*--------------------- CLASS STYLES--------------------------*/
+
+
   .reference {
     color: #C5C6C7;
     font-style: italic;
@@ -109,8 +110,7 @@ header {
   }
   /* Address link  details */
   ul.menu {
-    padding: 10px;
-    background: rgba(0,0,0,0.5);
+    margin: 20px;
     color: #66FCF1;
   }
     /*Sort the address link side by side as */

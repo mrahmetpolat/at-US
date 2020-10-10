@@ -5,7 +5,7 @@
 <!-- title for the page -->
 <title>@US - Assignment 2</title>
 <!--This code shoule be included in all website for responsive websites https://www.w3schools.com/css/css_rwd_viewport.asp-->
-<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Assignment2 webpage of @Us"/>
 <meta charset="UTF-8">
 <!--Style location-->
@@ -16,8 +16,8 @@
 
 <body>
   <header>
-    <img src="images/logo.png" style = "height:200px;">
-    <div class="nav"
+    <img src="images/logo.png" alt="logo" style = "height:200px;">
+    <div class="nav">
       <ul class="menu">
         <li class="menu"><a class="address" href="index.html">Who are we?</a></li>
         <li class="menu"><a class="active" href="industryData.html">Industry Data</a></li>
@@ -26,12 +26,14 @@
         <li class="menu"><a class="address" href="projectidea.html">Project Idea</a></li>
       </ul>
     </div>
+  </header>
+
   <article class="itWork">
-  <!-- ----------------------------------THE SECTION ABOUT @Us--------------------------------------------- -->
+  <!-- *****************************THE SECTION ABOUT @Us********************************** -->
   <div class="card">
   <div class="container">
     <h1 class="itWork"><b>Cybersecurity</b></h1>
-    <img src="images/cyberSecurity.png"  alt="Cybersecurity" style="width:20%" position:"relative">
+    <img src="images/cyberSecurity.png"  alt="Cybersecurity" style="width:20%" >
 
     <h2 class="itWork">What does it do?</h2>
     <P class="itWork">
@@ -55,7 +57,7 @@
 <div class="card">
 <div class="container">
   <h1 class="itWork"><b>Machine Learning</b></h1>
-  <img src="images/machineLearning.png"  alt="Machine Learning" style="width:40%" align:"left">
+  <img src="images/machineLearning.png"  alt="Machine Learning" style="width:40%" >
 
   <h2 class="itWork">What does it do?</h2>
   <P class="itWork">Machine learning is artificial intelligence, wherein massive amounts of data are compared to create probabilities, used in or as decision making.
@@ -85,7 +87,7 @@
 <div class="card">
   <div class="container">
     <h1 class="itWork"><b>Natural Language Processing</b></h1>
-  <img src="images/naturalLanguage.png"  alt="Cybersecurity" style="width:70%" position:"relative">
+  <img src="images/naturalLanguage.png"  alt="Cybersecurity" style="width:70%" >
     <h2 class="itWork">What does it do?</h2>
       <p class="itWork">gpt-3 is an example of natural language processing
     	siri, alexa, these are trained to receive and convert into data natural language processing (human language)
@@ -104,7 +106,7 @@
 <div class="card">
   <div class="container">
     <h1 class="itWork"><b>RaspberryPi</b></h1>
-    <img src="images/raspberryPi.png"  alt="Cybersecurity" style="width:20%" position:"relative">
+    <img src="images/raspberryPi.png"  alt="Cybersecurity" style="width:20%" >
 
     <h2 class="itWork">What does it do?</h2>
       <P class="itWork">gpt-3 is an example of natural language processing
@@ -126,7 +128,8 @@
 
 
     <!--References for the project ideas Currently shows Ahmet's please update with your one -->
-  <h3a>References</h3a><br>
+  <h3 class="refs">References</h3>
+  <br>
     <p class="refs">
         [1]Economics, F., 1, E. and growth, H., 2020. House Prices Outpacing Income Growth. [online] Faculty of Business and Economics. Available at: <br>
         <a class="reference" href="https://fbe.unimelb.edu.au/exchange/edition1/house-prices-outpacing-income-growth">
@@ -148,11 +151,11 @@
 
   <footer>
       <!--Copyright -->
-      &copy 2020 Copyright of this page belongs to member of @US group.<br>
+      &copy; 2020 Copyright of this page belongs to member of @US group.<br>
       <!--Link to our repository -->
       Github Repository : <a href="https://github.com/mrahmetpolat/at-US"><i class="fa fa-github" style="font-size:30px"></i></a>
       <!--Link to our Canvas Page -->
-      RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" height="20px" class = "icon2"></a><br>
+      RMIT Canvas Page : <a href="https://rmit.instructure.com/groups/272999/pages/welcome"><img src="images/RMIT-Logo.png" alt="RMIT logo" class = "icon2"></a><br>
   </footer>
 
 
