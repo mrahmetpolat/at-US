@@ -51,26 +51,77 @@ Memberships
 ISACA  https://www.isaca.org/why-isaca/about-us
 ISO  https://www.iso.org/what-we-do.html
 
-The Interview Questions
-
 Please tell us about your IT work. What exactly do you do? 
-Please tell us about the industry you work in. 
-What other kinds of work do you have to do? How has Covid impact you?
-Who are all the different people you interact with in your work?  
-Please tell us about your interactions with other IT professionals. 
-Do you interact with clients or investors? 
-What aspects of your work do you spend most time on? Please tell us about these. 
-Which aspects of your work do you find most challenging? 
-What is changing in your industry right now? 
-What is likely to be possible in cybersecurity in the future that wasn't before?" 
+
+CSIO – Develop & deliver on the cybersecurity and data privacy strategy & vision to ensure that critical assets are protected.
+
+Responsible for 5 Key areas
+A). SOC – Perimeter control processes in place to protect systems and access to the network Small internal team with outsourced SOC function that provide key services. As an example, the internal team will do further investigation in events such a phishing by isolating end user machines.
+
+B) Data privacy – given this is in the health industry the management of data is absolutely critical as they are dealing with patient health files including Mental Health. Ensuring that controls, process and policy in place, & ensuring data classification and handling is tightly controls.
+
+C)IT governance Risks & Controls – Sarbanes-Oxley Act * SOX(https://en.wikipedia.org/wiki/Sarbanes–Oxley_Act) is being used here as a guide to dealing with the validity  accuracy & completeness of IT application & general controls from a financial reporting perspective. The key term used by Mitra here was “protecting the crown jewels” is paramount.
+
+D) Business facing Security architects – for change initiative, this is something that    Mitra has introduced to ensure that IT security & privacy is covered when new initiatives are introduced.
+
+E) Cyber security and privacy education across the organisation. The human factor is one that is easily manipulated, particularly given the 20000 strong workforce managing this piece is really important to protect the organisation. They target Payroll, Finance executive. They use proof point as their email gateway with really powerful scanning algorithms
+ 
+Please tell us about the industry you work in. How has COVID 19 impact you
+Health. 43 Hospitals across the country.
+Owned by Brookfield Business Partners (https://www.brookfield.com)
+
+How has COVID 19 impact you?
+
+In March they needed to increase 20 concurrent CPN users to 1000 within a short period of time.
+Hospitals were converted to have the ability to take COVID-19 patients.
+Some hospitals were converted to take in the aged from aged care facilities where there were infections – i.e. to house the non-effected.
+
+What is the priority for investment for the security? 
+
+This is important when cash flow is slow.
+Most importantly find a solution which is financially viable.
+
+Elective surgery was stopped which impacted their bottom line – later in the interview Mitra was talking about investment spend and the link between the two is not lost on how this may impact the IT investment. 
+
+Who are all the different people you interact with in your work?  	
+
+Executive Leadership team, Board (4 time in the last 5 months), Brookfield Partners (owners 2019) of Healthscope, App developers, Service Delivery, software developers, engineers. Audit committee. State Managers, General Managers and CEO’s of individual hospitals
+
+Used National Institute of Standards and Technology - NIST* (https://www.nist.gov) Cybersecurity Assessment to determine the Gaps, residual risks and what needs to be implemented tactically and strategically. Then put this in front of the decision makers
+
+
+
+
 What happens when a person or organisation has bad cybersecurity?"
-Finally, can you share an example of the work you do that best captures the essence of 
-the IT industry? 
+
+Data breaches, spear phishing, there are many examples on the web around this. They have had ransomware events.
+
+They target Payroll, Finance executive. Healthscope use proof point as their email gateway with really powerful scanning algorithms
+
+What is changing in your industry right now? 
+
+Data Breaches
+Given this is a newly elevated role there is significant interest for senior executives, board & owners( due in part to the Foreign Investment Review Board(FIRB) * https://firb.gov.au/about-firb requirements of foreign ownership - they are very understanding of the current external landscape and the significance of protecting the assets, systems and health records. They are seeing Breaches occurring at other Health providers.
+
+Maturity in cyber is a critical factor in the changing landscape – Financial Industry, Telco’s are heavily regulated and have been for some time – therefore they have stronger control over data and systems – this has seen a shift in activity to other industries, including the health where threat actors are seeing money to be made from data.
 
 
-Recording 
-Link
 
+
+What is likely to be possible in cybersecurity in the future that wasn't before?" 
+
+This question wasn’t asked however discussion pertinent to this was around the internal procurement processes. 
+one of the responsibilities is to help the executive to absorb the possible problem in a simple way by simplifying the terminologies in the sector.  
+•	Work with the other in the team to protect the organisation 
+•	Costing about uplifting the capacity and the capability. Etc.
+
+
+Individual Hospitals have procured their own equipment, often with a tech interface. IOT equipment, that are connected to the Web. This can be significant as this information if hacked could impact a patient’s health even life. For example, a possible breach in the network can cause major damage simply because, IV drops, IV pumps, pacemakers are part of the network and they have vital importance for the patience.
+ Previously the equipment hasn’t been PEN tested, they are taking significant steps now to ensure that there is governance around this process. 
+
+Outsourcing the Pen testing to see with a given device 
+•	How far they can go?
+•	What they can do with the given access?
 
 
 
