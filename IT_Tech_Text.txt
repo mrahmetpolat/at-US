@@ -19,11 +19,33 @@ Cybersecurity
 		IT Governance risks and controls - SOX (Sarbanes Oxley) is an American legislature pertaining to financial reporting*. It is being implemented here*, dealing with the accuracy and completeness of IT applications and general controls from a financial reporting perspective. What is paramount here is protecting whatever sensitive data (critical encryption keys, etc) may exist in the respective industries in which cybersecurity is implemented. ^
 		Business-facing security architects - to make sure that all new initiatives have one or more cybersecurity employees involved for consideration of cybersecurity risks.
 		Cybersecurity and privacy education is essential to good cybersecurity, as the human factor is one that is easily manipulated, especially in a large workforce. In particular, payroll employees, finance. They must ensure that cybersecurity is front-of-mind for the employees, to ensure that the organisation is making decisions that are always taking into consideration data loss, particularly in sensitive industries which are heavily regulated.
-		NIST (National Institute of Standards and Technology) is an American organisation which advises its members of frameworks that can be used to increase cybersecurity*. These can be helpful for completing an asessment of an organisation for identification^ of gaps in security and risks apparent. The next phase is then to protect that information systems and assets through examples like user access management (above) or encryption of data. Then the organisation would have a provider such as RSA*^ who have action360 as a tool*. It looks for phishing sites, it scans social media for references to the organisation, it searches for any other kind of malicious sites. They would, in the detect piece, be looking at their current software, operating systems, all internal systems and determining whether there are patches that need to be put in place, or whether there are any zero-day vulnerabilities*.
+		NIST (National Institute of Standards and Technology) is an American organisation which advises its members of frameworks that can be used to increase cybersecurity*. These can be helpful for completing an asessment of an organisation for identification^ of gaps in security and risks apparent. The next phase is then to protect that information systems and assets through examples like user access management (above) or encryption of data. Then the organisation would have a provider such as RSA*^ who have action360 as a tool*. It looks for phishing sites, it scans social media for references to the organisation, it searches for any other kind of malicious sites. They would, in the detect piece, be looking at their current software, operating systems, all internal systems and determining whether there are patches that need to be put in place, or whether there are any zero-day vulnerabilities*(https://en.wikipedia.org/wiki/Zero-day_(computing)). Following Detect in the NIST framework is to respond, generally organisations will have a response plan, communications, forensics and mitigation activities. Then recover the systems to normal operations using recovery plans, impementation of patches and restoring affected systems.
 		Up to 582 words.
-	2 What is the likely impact?
-		
+	2 What is the likely impact?   https://en.wikipedia.org/wiki/List_of_data_breaches
+
+There are many examples of what happens when organisations get their computer assets security wrong. Refer to List of Data Breaches * https://en.wikipedia.org/wiki/List_of_data_breaches
+ for a dynamic list of Data Breaches. 
+ 
+ 
+ 
+ The main methods indetified for for data loss are due to hacking, poor security, accidently published and inside job
+ 
+ The key impacts and outcomes for oganisations are :
+ Significant reputational damage, due mainly to the fact that customer records are often exposed. This can be signifantly more problematic dependant on the industry.  
+ Financial impacts, such as regulatory fines, customer remediation and costs related to restoring the systems, assets and implementing the effective controls. Operational impacts, systems could be down and therefore the company may not be able to operate( e.g Sony), resources are divereted solving the problem, or have to divert to manual processes.
+ Loss of IP - significant intellectual property may have an adeverse effect on a company as this can be used in very competitative markets.
+ Legal action my customers - class actions are common place today where data breaches have occurred with many examples avialable.
+ 
+ 
+  Some notable Data breaches
+ Sony* https://en.wikipedia.org/wiki/Sony_Pictures_hack Marriot* https://en.wikipedia.org/wiki/ hacker group Guardians of peace* relaesed confidential data from Sony. It was vbeleived to be a state sponsored attack. The public release of a yet to be realeased film were among the threats, as well as expsoure of employee data and salaries.
+ Marriott_International#Data_breach Starwood 2018 Breach Marriot initial advised upto  500 million guest records were exposed, however later revised this to 383 million. It was beleived to be a state sponsored attack.
+ 
+ 
 	3 How will this affect you?
+	
+	As mentioned above the key effect of poor cyber security practises can have a deterimental effect of individuals through data loss. Whether you are working for an organsation like Sony and your employee information is leaked or you are just a customer of the Marriot and you personal data, such as credit cards, address, DOB are relaesed the results. The results can be far reaching, upto and including impacting mental health difficulties. It was reported that the Ashley Maddison breach* resulted in users taking thier own lives as a result, breaking up seemply happy families and costing individual in many other ways. 
+	Identity takeover is another significant issue for individuals. years of dealing with the resultant fall out, initially this may be just getting your money back into bank accounts, having to replace personal documents such as passports or years later having to fix credit ratings due to loans being taken out under your name. 
 	
 
 Machine Learning
