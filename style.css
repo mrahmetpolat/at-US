@@ -1,6 +1,6 @@
 html{
-    background:#7F909A;
-    font-family: helvetica;
+    background:#0b0C10;
+    font-family: Arial, Helvetica, sans-serif;
   }
   /*navigation are for the menu items   */
   .nav{
@@ -13,7 +13,7 @@ html{
 /* Header section where group logo & links are located  */
 header {
     text-align: center;
-    background: #17252A;
+    background: #1d1e22;
     background-size: cover;
     max-width: 940px;
     margin: 0px auto;
@@ -34,13 +34,14 @@ header {
     max-width:900px;
     padding: 20px;
     margin: 0 auto;
-    background: #17252A;
+    background: #272727;
   }
 
   p {
-    color: #C5C6C7;
-    font-size: 14px;
-    line-height:  21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #feffff;
+    font-size: 17px;
+    line-height:  24px;
   }
 
   p.refs {
@@ -63,7 +64,7 @@ header {
 
   /* active page link colour to be changed   */
   .active {
-    color: #ED6639;
+    color: #FF5A09;
   }
   /* inactive page link colour to be changed   */
   .address {
@@ -71,11 +72,11 @@ header {
   }
   /*Heading 1 Style */
   h1 {
-    font-family: "Quicksand",helvetica;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 1px;
-    color: white;
+    color: #86c232;
   }
     /*Heading 2 Style */
 
@@ -83,14 +84,14 @@ header {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 1px;
-    color:white;
+    color:#FC4A1A;
   }
   /*Heading 3 Style */
   h3 {
     font-size: 18px;
     margin-bottom: 2px;
-    color: white;
-    font-weight: 600;
+    color: #F7B733;
+    font-weight: 300;
   }
   /*Heading 4 Style */
   h4 {
@@ -115,6 +116,7 @@ header {
   }
     /*Sort the address link side by side as */
   li.menu {
+    font-size: 22px;
     display: inline;
     padding: 0px 20px 0px 20px;
     color: #66FCF1;
@@ -212,22 +214,29 @@ table {
 
 /* Style table headers and table data */
 th {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #86c232;
+  color: white;
 }
  td {
   text-align: left;
   padding: 10px;
   border: 1px solid white;
+  font-size: 15px;
+  color: #DFDCE3;
 }
 
-th:first-child, td:first-child {
-  text-align: left;
-}
+  td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
 
-
-
+  tr:nth-child(even){
+    background-color: #393939;
+  }
+  tr:hover {background-color: black;}
 
 /* Following styles will kick in on mobile devices*/
   @media (max-width: 500px) {
