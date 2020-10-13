@@ -1,5 +1,5 @@
 html{
-    background:#0b0C10;
+    background:#d1d7E0;
     font-family: Arial, Helvetica, sans-serif;
   }
   /*navigation are for the menu items   */
@@ -34,14 +34,15 @@ header {
     max-width:900px;
     padding: 20px;
     margin: 0 auto;
-    background: #272727;
+    background: #222629;
   }
 
   p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #feffff;
-    font-size: 17px;
+    color: #CCCCCC;
+    font-size: 18px;
     line-height:  24px;
+    font-weight: 10;
   }
 
   p.refs {
@@ -64,7 +65,7 @@ header {
 
   /* active page link colour to be changed   */
   .active {
-    color: #FF5A09;
+    color: #3FEEE6;
   }
   /* inactive page link colour to be changed   */
   .address {
@@ -73,24 +74,24 @@ header {
   /*Heading 1 Style */
   h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 1px;
-    color: #86c232;
+    color: #4390BC;
   }
     /*Heading 2 Style */
 
   h2 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 1px;
-    color:#FC4A1A;
+    color:#45A29E;
   }
   /*Heading 3 Style */
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 2px;
-    color: #F7B733;
+    color: #97CAEF;
     font-weight: 300;
   }
   /*Heading 4 Style */
@@ -181,7 +182,7 @@ header {
   }
 
   .title {
-  color: #66FCF1;
+  color: #CAFAFE;
   }
   /*----------------------BUTTON DESIGN ---------------------  */
   .button {
@@ -217,7 +218,7 @@ th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #86c232;
+  background-color: #29648A;
   color: white;
 }
  td {
@@ -232,7 +233,7 @@ th {
   border: 1px solid #ddd;
   padding: 8px;
   }
-
+  /* to change the colour of every other page */
   tr:nth-child(even){
     background-color: #393939;
   }
