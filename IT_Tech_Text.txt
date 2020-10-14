@@ -89,6 +89,11 @@ Natural Language processing
 
 Raspberry Pi/Arduino/Makey Makey/etc
 	1 What does it do?
-		Single Board Computers are small devices, commercially sold, commonly under the names "Raspberry Pi", "Arduino", "Makey Makey", and others. They differ from regular computers [in that their design is a single board, rather than with a separate graphics card, RAM, and 
+		The first Single Board Computer(SBC)* was the Dyna-micro(1976) featured in the May 1976 Radio Electronics*  magazine where it details, “this system has been designed to teach you about microcomputers”. It interesting that 45 years on the new breed of SBC are still marketed as learning tools.
+
+Fast forward to today and we have many options to choose from, and with their popularity increasing as consumers get to determine what they use them for. So what is a SBC, a single Board Computers are small devices, commercially sold, commonly under the names "Raspberry Pi", "Arduino", "Makey Makey", and others. They differ from regular computers [in that their design is a single board, rather than with a separate graphics card, RAM, and…
+
+Effectively they are the equivalent the motherboard of your PC today, todays computers have other boards to run such peripeheral components as drives, serial ports, graphics cards with the motherboard offering support. The SBC his one board and allows all peripheral components to plug into to it.
+differ from regular computers [in that their design is a single board, rather than with a separate graphics card, RAM, and 
 	2 What is the likely impact?
 	3 How will this affect you?
