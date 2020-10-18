@@ -13,7 +13,7 @@ margin: 0px auto;
   }
   /*navigation are for the menu items   */
   .navigation{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(255,255,255,0.1);
   }
   nav{
     height: 40px;
@@ -22,6 +22,7 @@ margin: 0px auto;
     margin: 0px auto;
     text-align: center;
     text-transform: uppercase;
+    background-color: rgba(255,255,255,0.1);
   }
   nav a{
     display: block;
@@ -29,7 +30,8 @@ margin: 0px auto;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 16px;
-    color: white
+    color: white;
+    background-color: rgba(0,0,0,0.5);
   }
   nav a:hover {
     background-color: black;
@@ -71,7 +73,6 @@ header {
     font-size: 16px;
     color: white;
     text-align: justified;
-    font-weight: 500;
     position: relative;
     margin: 0;
   }
@@ -87,9 +88,9 @@ header {
 
   p {
     color: #CCCCCC;
-    font-size: 18px;
-    line-height:  28px;
-    font-weight: 10;
+    font-size: 16px;
+    line-height:  24px;
+
   }
 
   p.refs {
@@ -121,6 +122,7 @@ header {
   h1 {
     font-size: 24px;
     font-weight: 600;
+    margin-top: 5px;
     margin-bottom: 1px;
     color: #4390BC;
   }
@@ -129,12 +131,14 @@ header {
   h2 {
     font-size: 22px;
     font-weight: 400;
+    margin-top: 5px;
     margin-bottom: 1px;
     color:#45A29E;
   }
   /*Heading 3 Style */
   h3 {
     font-size: 20px;
+    margin-top: 5px;
     margin-bottom: 2px;
     color: #97CAEF;
     font-weight: 300;
@@ -154,6 +158,36 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  }
+
+  /* Main Level */
+  .text ul{
+    margin-left:30px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+  .text li{
+    margin-left:30px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+
+  /* Second Level */
+  .text ul ul{
+    margin-left:40px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+
+  /* Third Level */
+  .text ul ul ul{
+    margin-left:50px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
   }
 
 
