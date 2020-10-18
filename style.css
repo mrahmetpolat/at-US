@@ -1,14 +1,64 @@
-html{
+html,body,div,h1,h2,h3,h4,p,img,ul,li,article,header {
+font:inherit;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px auto;
+}
+  * {
+    padding:0;
+    margin:0;
+  }
+
+  html{
     background:#d1d7E0;
-    font-family: Arial, Helvetica, sans-serif;
   }
   /*navigation are for the menu items   */
-  .nav{
-    width: 940px;
-    background-color: rgba(0,0,0,0.5);
-    margin: 0px auto;
-    overflow: auto;
+  .navigation{
+  background-color: rgba(255,255,255,0.1);
   }
+  nav{
+    height: 40px;
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0.1);
+  }
+  nav a{
+    display: block;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+  }
+  nav a:hover {
+    background-color: black;
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav ul li{
+    float:left;
+    width:188px;
+    height:40px;
+    line-height:40px;
+    background:#1d1e22;
+  }
+  nav ul ul li{
+    position:relative;
+    display:none;
+  }
+  nav ul li:hover ul li{
+    display: block;
+  }
+  nav ul li ul{
+    float: left;
+  }
+
+/*********************************************/
+
 
 /* Header section where group logo & links are located  */
 header {
@@ -17,15 +67,14 @@ header {
     background-size: cover;
     max-width: 940px;
     margin: 0px auto;
-    margin-bottom: 0px;
   }
 
   body{
     font-size: 16px;
     color: white;
     text-align: justified;
-    font-weight: 500;
     position: relative;
+    margin: 0;
   }
 
   article {
@@ -38,11 +87,10 @@ header {
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
     color: #CCCCCC;
-    font-size: 18px;
+    font-size: 16px;
     line-height:  24px;
-    font-weight: 10;
+
   }
 
   p.refs {
@@ -56,7 +104,6 @@ header {
       }
 
 /*--------------------- CLASS STYLES--------------------------*/
-
 
   .reference {
     color: #C5C6C7;
@@ -73,9 +120,9 @@ header {
   }
   /*Heading 1 Style */
   h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 600;
+    margin-top: 5px;
     margin-bottom: 1px;
     color: #4390BC;
   }
@@ -84,12 +131,14 @@ header {
   h2 {
     font-size: 22px;
     font-weight: 400;
+    margin-top: 5px;
     margin-bottom: 1px;
     color:#45A29E;
   }
   /*Heading 3 Style */
   h3 {
     font-size: 20px;
+    margin-top: 5px;
     margin-bottom: 2px;
     color: #97CAEF;
     font-weight: 300;
@@ -110,29 +159,43 @@ header {
   margin-right: auto;
   width: 50%;
   }
-  /* Address link  details */
-  ul.menu {
-    margin: 20px;
-    color: #66FCF1;
-  }
-    /*Sort the address link side by side as */
-  li.menu {
-    font-size: 22px;
-    display: inline;
-    padding: 0px 20px 0px 20px;
-    color: #66FCF1;
-  }
-  /* change the colour of background  while hoverng over the menu item*/
-  li.menu:hover{
-    background: rgba(0,0,0,0.8);
-    padding: 20px;
 
+  /* Main Level */
+  .text ul{
+    margin-left:30px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
   }
+  .text li{
+    margin-left:30px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+
+  /* Second Level */
+  .text ul ul{
+    margin-left:40px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+
+  /* Third Level */
+  .text ul ul ul{
+    margin-left:50px;
+    font-size: 16px;
+    line-height:  24px;
+    color: #CCCCCC;
+  }
+
+
 /*-----------------------------------FOOTER----------------------------------*/
   /*footer style code*/
   footer{
     padding: 10px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(0,0,0,0.8);
     color: white;
     text-align: center;
     max-width:920px;
@@ -198,7 +261,6 @@ header {
     background-color: #66FCF1;
   }
 
-
 .icon2 {
   max-height: 30px;
   max-width: 54px;
@@ -208,7 +270,6 @@ header {
 /* Table will be placed to fit the width*/
 table {
   border-collapse: collapse;
-  border-spacing: 0;
   width: 100%;
   border: 1px solid #ddd;
 }
@@ -250,8 +311,15 @@ th {
     img {
       max-width: 100%;
       height : auto;
-      margin: 40px 0px 0px 0px;
-      border: 2px solid #45A29E;
-      border-radius: 10px;
+    }
+
+    .column {
+    float: left;
+    width: 99%;
+    margin-bottom: 5px;
+    padding: 0 4px;
+    }
+    nav{
+    display: block;
     }
 }

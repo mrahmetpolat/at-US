@@ -17,152 +17,236 @@
 <body>
   <header>
     <img src="images/logo.png" alt="logo" style = "height:200px;">
-    <div class="nav">
-      <ul class="menu">
-        <li class="menu"><a class="address" href="index.html">Who are we?</a></li>
-        <li class="menu"><a class="address" href="industryData.html">Industry Data</a></li>
-        <li class="menu"><a class="address" href="itWork.html">IT Work</a></li>
-        <li class="menu"><a class="address" href="itTechnologies.html">IT Technologies</a></li>
-        <li class="menu"><a class="active" href="projectidea.html">Project Idea</a></li>
-      </ul>
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><a href="index.html">Who are we?</a></li>
+          <li><a href="industryData.html">Industry Data</a></li>
+          <li><a href="itWork.html">IT Work</a></li>
+          <li><a>IT Technologies</a>
+            <ul>
+              <li><a href="cybersecurity.html">Cyber Security</a></li>
+              <li><a href="machineLearning.html">Machine Learning</a></li>
+              <li><a href="nlp.html">NLP</a></li>
+              <li><a href="rpi.html">Raspberry PI</a></li>
+            </ul>
+          </li>
+          <li><a href="projectidea.html">Project Idea</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <!-- Articles are sections for the sectiosn of the assignment  -->
   <article>
-    <h1>Overall title for the page</h1>
+    <h1>Automation of a motor vehicle’s driving seat and mirror positioning when there are multiple drivers/users of any one vehicle</h1>
   </article>
-  <!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
-  <article>
-    <!-- Title for the sub-section -->
+      <article>
+    <br>
     <h3>Overview</h3>
     <p>
-      Overview Text
+      This project is taking the focus of the use of motor vehicles: cars, and the user centred design of the drivers of such a car with their
+      seating and mirrors positioning; key functional and observatory features of a common vehicle. Using innovative hardware such as a
+      Raspberry Pi and the development of a software; it is believed that the drivers key observatory and functional features: the seat and
+      mirrors and their positioning (their settings) can be managed, stored and automatically adjusted (on starting of the car) to better be
+      suited when their is multiple dedicated drivers of one common 21st century car.
     </p>
   </article>
-  <!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
+
   <article>
-    <!--Heading for Motivation -->
-    <h3>Motivation </h3>
+    <h3>Motivation/Opportunity</h3>
 
-    <!--Table data for comparison for Industry Data & Ideal Jobs -->
-       <table>
-      <!--First Row -->
-      <tr>
-        <!--The first style does set the size for 1st colum, rest will be devided -->
-        <th style="width:20%">Title</th>
-        <!--Table headings -->
+      <p>
+        When you have another person drive your vehicle or a vehicle you regularly use, they move the seat and mirrors and it can be annoying and a
+        time wasting process to change them back every time and getting it perfect again when you go to drive the vehicle. What if you could manage,
+        store, and automatically adjust each drivers’ personal settings; the seat and mirrors to accustom the dedicated driver (at the time) on start up every time.
+        Some newer cars have memory buttons that save the driver’s seat and mirror (side and rear view) positions, but what if this could be implemented or
+        integrated into almost any car of the 21st century using Raspberry Pi (small single board computer) technology with a developed software that stores,
+        manages and actions adjustments?
+      </p>
+    </article>
 
-        <th>Ideal Job</th>
-        <th>Job Title</th>
-        <th>Sector</th>
-        <th>IT Specific Skills</th>
-        <th>Non-IT Specific Skills</th>
-      </tr>
-      <!--Second Row -->
-      <tr>
-        <td>Ahmet Polat</td>
-        <td>Data Scientist at LimeLight People</td>
-        <td>Data Scientist</td>
-        <td>Big Data and Machine Learning</td>
-        <td>SDLC, SLQ, Python, R, Scala, Java</td>
-        <td>Fast paced and agile, Working with teams, Strong communication skills, Passion for field</td>
-      </tr>
-      <!--Third Row -->
-      <tr>
-        <td>Jack Sharples</td>
-        <td>Senior Software Developer at Point Duty</td>
-        <td>Senior Full Stack Developer </td>
-        <td>Software</td>
-        <td>.Net, #c, Node.JS, WFP</td>
-        <td>Communication Skills, Working with teams</td>
-      </tr>
-         <!--Fourth Row -->
-      <tr>
-        <td>John Wilkins</td>
-        <td>Store Manager at Kathmandu</td>
-        <td>Store Manager</td>
-        <td>Retail</td>
-        <td>Business Management, Building relationships </td>
-        <td>Communication Skills, Working with teams, Customer relations</td>
-      </tr>
-         <!-- Fifth Row -->
-      <tr>
-        <td>Luke Harding-Smith</td>
-        <td>Information Systems Technician at The Australian Defence Force</td>
-        <td>SInformation Systems Technician</td>
-        <td>Defence</td>
-        <td>Cyber Security, Technical Support, Maintaining software/hardware, Network administration</td>
-        <td>Physical fitness, Communication Skills, Working with teams</td>
-      </tr>
-         <!-- Sixth Row -->
-      <tr>
-        <td>Rob Harris</td>
-        <td>SOC Manager at CGI</td>
-        <td>Security Operations Centre Manager</td>
-        <td>Cyber Security</td>
-        <td>Cyber Security, SIEM ,NIST, ISO 27001</td>
-        <td>People Management, Communication Skills, Working with teams</td>
-      </tr>
-    </table>
-
-  </article>
-  <!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
-
-   <!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
   <article>
     <h3>Description</h3>
+    <p>
+      This product and software; the system as a whole, could potentially reach more of an audience if it was
+      external to a car’s multiple computer/Electronic Control Unit (ECU) (for the drivers electronic seat and mirror: side and rear view) and
+      running on a Raspberry Pi and dedicated software; as it could potentially function on more 21st century cars.  <br><br>
+      The innovation of the Raspberry Pi: <br><br>
+      A series of pocket sized single-board computers known as the The Raspberry Pi have taken over the world of automation and robotics.
+      The innovative series of “Pi sized” computers was originally aimed “at promoting the teaching of basic computer science in schools and in developing
+      countries”, now it aids in solving an infinite number of problems.  The Raspberry Pi has the ability to replace our common desktop computers and some
+      versions can be used as a USB (Universal Serial Bus) device or USB host; “plugged into another computer via a USB port on another machine”.
+      With multiple configuration methods it can show up as a serial device or an ethernet device; with the ability to USB and network boot.
+      Also noting that the latest Raspberry Pi 4 has complete POE (Power-over-Ethernet) support, through full gigabit ethernet, on-board Wifi and
+      Bluetooth capability. (Wikipedia, 2020) <br><br>
+    </p>
+    <h4>Hardware and Software:  </h4>
+    <ul class="text">
+      <li class="text">The Raspberry Pi is to used to run the software (on the start up of the car) that will manage, store and run adjustments on the car’s
+        drivers seat, side and rear view mirrors when a drivers/user settings (for position and angle) is selected.
+      </li>
+      <li class="text">Dependency on the features of the car: whether it has a touchscreen and/or Apple Carplay/Android Auto or not;
 
-      <p>
-      Description text
-      </p>
+      <ul class="text">
+        <li class="text">
+          If the car has an touchscreen and/or Apple Carplay/Android Auto (like most modern cars have now); the Raspberry Pi will need to be plugged
+          into the USB port for the car and just like a car picks up that a mobile phone has been plugged in and runs Apple Car Play or Android Auto,
+          the car will pick up the Raspberry Pi as a device and run the software through the touchscreen on the interior console: USB boot
+        </li>
+        <li class="text">
+          If the car does not have a touchscreen in the interior console, the Rasberry Pi will need a display; a small touchscreen monitor;
+          five inch monitor (for example) that plugs into the Raspberry PI (will suit the Raspberry PI) that displays the software’s UI (User Interface) on startup;
+          to select a driver’s/user’s profile and settings for the driver seat, side view mirrors and rear view mirrors, so the seats and mirrors position and angle
+          can be automatically adjusted
+        </li>
+      </ul>
+      <li class="text">
+        The Raspberry Pi will need to be hard wired into the seats and mirrors (rear view and side) ECU (Electronic Control Unit) and also connected to the cars
+        power source (e.g. be plugged into the 12 volt power adapter for power or power over usb: usb ports
+      </li>
+  </ul><br>
 
+    <h4>Functionality/Operation/Setup: </h4><br>
+    <h5>Initial Setup:</h5>
+    <p>
+    Once everything is plugged in and hardwired (the Rasberry PI is plugged into power or USB and a display: to show UI) and the car (that is used by multiple people) is turned on for the first time with the external device (the Raspberry Pi) that will (have software that will) manage, store and run adjustments on the car’s driver’s seat, side and rear view mirrors for each dedicated driver, there is an initial setup wizard that is a part of the software. The initial setup wizard or initial setup UI that will show on the display will be as follows:   <br><br>
+    “Welcome to [TBC Software Name], what is your name?” <br><br>
+    “_________________” [Click box and use on screen keyboard/external keyboard to type name] <br>
+    “Next” <br>
+
+    [Next page] <br><br>
+    “Please adjust your seat (position and back angle) and mirrors (side and rear view) to your liking and then click Save.” <br><br>
+    [Will need to manually adjust electronic seat and back angle and mirrors (side and rear view) to your liking with buttons/switches that
+    manufacture has provisioned] <br><br>
+
+    “Save” <br><br>
+    [Next page]  <br><br>
+    “Your profile name and settings have been saved, on next startup, these will be automatically adjusted (if not already) to accustom you, thank you.” <br>
+    The software (that is to run on the Raspberry PI) is to:  <br><br>
+    </p>
+    <ul class="text">
+      <li class="text">Manage
+        <ul class="text">
+          <li class="text">when changes are made manually on any one drivers profile/settings
+            (the electronic driver seat is moved or the mirrors are moved; a notification will display in the software:<br>
+            “Settings have been changed; would you like to save these for [Driver’s Profile Name]?”  <br>
+            “Yes/No
+          </li>
+        </ul>
+      </li>
+      <li class="text">Store and Run adjustments:
+        <ul>
+          <li class="text">Every drivers’ profile/settings will be stored in the software (once setup and saved); to choose (in the software’s UI) when the car is started;
+            so the seat and mirrors can be automatically adjusted
+          </li>
+          <li class="text">UI will display as (when the car is started, and the software is running):  <br>
+            “Hello, who is using this vehicle today?”
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+          <table>
+           <!--First Row -->
+           <tr>
+             <td>“Driver Profile 1” </td>
+             <td>“Driver Profile 2” </td>
+             <td>“Driver Profile 3” </td>
+             <td>“Setup New User” </td>
+            </tr>
+              </table>
+            <p>(refer to above Initial setup) <br>
+              Once a driver’s profile is selected, the automatic adjustments for the driver’s seat, side mirrors and
+              rear mirrors will be run.
+            </p>
   </article>
-  <!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
+
   <article>
-    <h3>Tools and Technologies</h3>
-      <p>
-        tools & technologi here
-      </p>
-    </article>
+    <h3>Tools and Technologies </h3>
+    <h4>Software:  </h4>
+    <ul class="text">
+      <li class="text">GitHub: to store code for software development </li>
+      <li class="text">Python: the Raspberry PI Foundation (the producer of the Raspberry Pi) promotes and
+        advises the use of Python as its primary programming language (Raspberry Pi Foundation, 2020) </li>
+      <li class="text">(Obviously) Developed software (that will run on the Raspberry PI) that will manage, store and run adjustments
+        on the cars driver’s seat and side and rear view mirrors when a drivers/user profile/settings (for driver seat, side view mirrors and
+        rear view mirrors position and angle) is selected </li>
+    </ul>
 
-<!-- ********************************ADDED TO VISUALLY SEPARATE THE CODE************************************ -->
-      <article>
-
+    <h4>Hardware:  </h4>
+    <ul class="text">
+      <li class="text">Rasberry Pi versions 3-4 </li>
+      <li class="text">Cabling:
+        <ul class="text">
+          <li>Power:
+              <ul>
+                <li class="text">USB-C to USB cable for power (USB boot for touch screen/Apple Car Play abled vehicles) </li>
+                <li class="text">USB-C to USB Cigarette lighter 12V adapter (for vehicles without USB ports)  </li>
+              </ul>
+          </li>
+          <li>Connectivity to drivers seat and mirrors ECU:
+              <ul>
+                <li class="text">USB to pin motor vehicle wiring adapter/OBD2 adapter/cable for connection to ECU
+                  (Electronic Control Unit) for seat and mirrors </li>
+              </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="text">Touchscreen LCD/monitor (if necessary: for early vehicles with
+        no touchscreen/apple car play) to suit Raspberry PI with cables to suit:mini HDMI cables) </li>
+    </ul>
+</article>
+<article>
     <h3>Skills Required</h3>
+    <ul class="text">
+      <li class="text">Software writing/programming and development (UI (User Interface) Development)</li>
+      <li class="text">Hardware configuration: coding/programming and software support for hardware  </li>
+      <li class="text">Special hardware knowledge: understanding of how a Raspberry Pi works</li>
+      <li class="text">Special programming knowledge: Python as the Raspberry Pi’s preferred and pre-installed programming language
+        (Raspberry Pi Foundation, 2020) </li>
+    </ul>
+</article>
 
-      <p>
-        Skills Required
-      </p>
-    </article>
+<article>
+  <h3>Market/Target Audience: </h3>
+<p>Primary owners of one vehicle that will have multiple people driving their car/or the car they use regularly
+</p>
+</article>
 
-    <!--Outcome project ideas -->
     <article>
-      <h3>Outcome</h3>
+      <h3>Project Outcome/Solution/Impact:  </h3>
+        <h2>Original Problem/Motivation: </h2>
         <p>
-          Outcome
+          “When you have another person drive your car, they move the seat and mirrors and it can be annoying to change them back every
+          time when you go to drive your car. What if you could manage, store, and automatically adjust each drivers’ personal settings
+          of one car; the seat and mirrors to accustom the dedicated driver (at the time) on start up every time. Some newer cars have memory buttons
+          that save the driving seat and mirror (side and rear view) positions, but what if this could be implemented or integrated into almost any car of
+          the 21st century using Raspberry Pi technology with a developed software that stores, manages and actions adjustments?”
         </p>
-      </article>
+
+        <ul class="text">
+          <li>If the project is successful, there will a functional system: an external system (external to the vehicle’s ECU’s (Electronic Control Unit)):
+            hardware and software that stores, manages and actions adjustments of the driver’s seat and the side and rear view mirrors in a
+            vehicle that will have multiple drivers. </li>
+            <li class="text">What does this mean for the intended audience? A convenient, time saving and effective solution to the annoying, time wasting hassle of
+              having to change the seat and mirrors back every time and making sure they are perfect after someone else drives the car </li>
+            <li class="text">With possibilities to be implemented and installed on commercial vehicles: fleet cars, work cars, etc. </li>
+            <li class="text">Integration into the vehicles key fob </li>
+        </ul>
+</article>
 
   <article>
       <!--References for the project ideas Currently shows Ahmet's please update with your one -->
       <h3 class="refs">References</h3>
       <p class="refs">
-          [1]Economics, F., 1, E. and growth, H., 2020. House Prices Outpacing Income Growth. [online] Faculty of Business and Economics. Available at: <br>
-          <a class="reference" href="https://fbe.unimelb.edu.au/exchange/edition1/house-prices-outpacing-income-growth">
-            https://fbe.unimelb.edu.au/exchange/edition1/house-prices-outpacing-income-growth</a>
-            <br>[Accessed 17 September 2020].
-            <br><br>
+          Raspberry Pi Foundation, 2020. Usage. [Online]<br>
+          Available at:<a class="reference" href="https://www.raspberrypi.org/documentation/usage/">https://www.raspberrypi.org/documentation/usage/</a>
+            <br>[Accessed October 2020].<br><br>
 
-          [2]Consumer.vic.gov.au. 2020. Property Data. [online] Available at: <br><a class="reference" href="https://www.consumer.vic.gov.au/housing/buying-and-selling-property/property-data">
-            https://www.consumer.vic.gov.au/housing/buying-and-selling-property/property-data</a> <br>[Accessed 16 September 2020].<br><br>
-          [3]ArcGIS for Developers. 2020. Get Started | Arcgis For Developers. [online] Available at: <br><a class="reference" href="https://developers.arcgis.com/labs/?product=python&topic=any">
-              https://developers.arcgis.com/labs/?product=python&topic=any</a> <br>[Accessed 16 September 2020].<br><br>
-          [4]Real Institute of Victoria. 2020. REIV Propertydata. [online] Available at: <br><a class="reference" href="https://reiv.com.au/about-us/propertydata">
-              https://reiv.com.au/about-us/propertydata</a> <br>[Accessed 16 September 2020].<br><br>
-          [5]Scikit-learn.org. 2020. Scikit-Learn: Machine Learning In Python — Scikit-Learn 0.23.2 Documentation. [online] Available at: <br>  <a class="reference" href="https://scikit-learn.org/stable/">
-                https://scikit-learn.org/stable/</a> <br>[Accessed 20 September 2020].
-
-          </p>
+          Wikipedia, 2020. Raspberry Pi. [Online] <br>
+          Available at: <a class="reference" href="https://en.wikipedia.org/wiki/Raspberry_Pi"> https://en.wikipedia.org/wiki/Raspberry_Pi</a> <br>
+          [Accessed October 2020].<br><br>
+      </p>
   </article>
   <!--Footter section for copyright & links to our repository & canvas areas -->
   <footer>
