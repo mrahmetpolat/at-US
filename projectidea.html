@@ -38,17 +38,16 @@
   </header>
   <!-- Articles are sections for the sectiosn of the assignment  -->
   <article>
-    <h1>Automation of a motor vehicle’s driving seat and mirror positioning when there are multiple drivers/users of any one vehicle</h1>
+    <h1>Automation of a motor vehicle’s driving seat and mirror positioning when there are multiple drivers/users of any one vehicle.</h1>
   </article>
       <article>
     <br>
     <h3>Overview</h3>
     <p>
-      This project is taking the focus of the use of motor vehicles: cars, and the user centred design of the drivers of such a car with their
-      seating and mirrors positioning; key functional and observatory features of a common vehicle. Using innovative hardware such as a
-      Raspberry Pi and the development of a software; it is believed that the drivers key observatory and functional features: the seat and
-      mirrors and their positioning (their settings) can be managed, stored and automatically adjusted (on starting of the car) to better be
-      suited when their is multiple dedicated drivers of one common 21st century car.
+    This project is taking the focus of the use of motor vehicles: cars, and the user-centred design of the drivers of such a car with their
+    seating and mirrors positioning; key functional and observatory features of a common vehicle. Using innovative hardware such as a Raspberry
+    Pi and the development of a software; it is believed that the driver’s seat and mirrors and their positioning (their settings) can be managed,
+    stored and automatically adjusted (on starting of the car) to better be suited when there are multiple dedicated drivers of one common 21st-century car.
     </p>
   </article>
 
@@ -56,34 +55,34 @@
     <h3>Motivation/Opportunity</h3>
 
       <p>
-        When you have another person drive your vehicle or a vehicle you regularly use, they move the seat and mirrors and it can be annoying and a
-        time wasting process to change them back every time and getting it perfect again when you go to drive the vehicle. What if you could manage,
-        store, and automatically adjust each drivers’ personal settings; the seat and mirrors to accustom the dedicated driver (at the time) on start up every time.
-        Some newer cars have memory buttons that save the driver’s seat and mirror (side and rear view) positions, but what if this could be implemented or
-        integrated into almost any car of the 21st century using Raspberry Pi (small single board computer) technology with a developed software that stores,
-        manages and actions adjustments?
+      When you have another person drive your vehicle or a vehicle you regularly use, they move the seat and mirrors and it can be annoying and a time
+      wasting process to change them back every time and getting it perfect again when you go to drive the vehicle. What if you could manage, store, and
+      automatically adjust each drivers’ personal settings; the seat and mirrors to accustom the dedicated driver (at the time) on start up every time.
+      Some newer cars have memory buttons that save the driver’s seat and mirror (side and rear view) positions, but what if this could be implemented or
+      integrated into almost any car of the 21st century using Raspberry Pi (small single board computer) technology with a developed software that stores,
+      manages and actions adjustments?
       </p>
     </article>
 
   <article>
     <h3>Description</h3>
+    <img src="images/sketch.png"  alt="Cybersecurity image2" style="width:80%">
     <p>
-      This product and software; the system as a whole, could potentially reach more of an audience if it was
-      external to a car’s multiple computer/Electronic Control Unit (ECU) (for the drivers electronic seat and mirror: side and rear view) and
-      running on a Raspberry Pi and dedicated software; as it could potentially function on more 21st century cars.  <br><br>
+    This product and software; the system as a whole, could potentially reach more of an audience if it was external to a car’s multiple computer/Electronic
+    Control Unit (ECU) (for the drivers electronic seat and mirror: side and rear view) and running on a Raspberry Pi and dedicated software; as it could potentially
+    function on more 21st century cars.    <br><br>
       The innovation of the Raspberry Pi: <br><br>
-      A series of pocket sized single-board computers known as the The Raspberry Pi have taken over the world of automation and robotics.
-      The innovative series of “Pi sized” computers was originally aimed “at promoting the teaching of basic computer science in schools and in developing
-      countries”, now it aids in solving an infinite number of problems.  The Raspberry Pi has the ability to replace our common desktop computers and some
-      versions can be used as a USB (Universal Serial Bus) device or USB host; “plugged into another computer via a USB port on another machine”.
-      With multiple configuration methods it can show up as a serial device or an ethernet device; with the ability to USB and network boot.
-      Also noting that the latest Raspberry Pi 4 has complete POE (Power-over-Ethernet) support, through full gigabit ethernet, on-board Wifi and
-      Bluetooth capability. (Wikipedia, 2020) <br><br>
+      A series of pocket sized single-board computers known as The Raspberry Pi have taken over the world of automation and robotics. The innovative series of “Pi sized”
+      computers was originally aimed “at promoting the teaching of basic computer science in schools and in developing countries”, now it aids in solving an infinite number of problems.
+      The Raspberry Pi has the ability to replace our common desktop computers and some versions can be used as a USB (Universal Serial Bus) device or USB host; “plugged into another
+      computer via a USB port on another machine”. With multiple configuration methods it can show up as a serial device or an ethernet device, with the ability to USB and network boot.
+      Also noting that the latest Raspberry Pi 4 has complete POE (Power-over-Ethernet) support, through full gigabit ethernet, on-board Wi-Fi and Bluetooth capability. (Wikipedia, 2020)
+      <br><br>
     </p>
     <h4>Hardware and Software:  </h4>
     <ul class="text">
-      <li class="text">The Raspberry Pi is to used to run the software (on the start up of the car) that will manage, store and run adjustments on the car’s
-        drivers seat, side and rear view mirrors when a drivers/user settings (for position and angle) is selected.
+      <li class="text">The Raspberry Pi is used to run the software (on the start-up of the car) that will manage, store and run adjustments
+        on the car’s driver’s seat, side and rear view mirrors when a drivers/user settings (for position and angle) is selected.
       </li>
       <li class="text">Dependency on the features of the car: whether it has a touchscreen and/or Apple Carplay/Android Auto or not;
 
@@ -101,33 +100,37 @@
         </li>
       </ul>
       <li class="text">
-        The Raspberry Pi will need to be hard wired into the seats and mirrors (rear view and side) ECU (Electronic Control Unit) and also connected to the cars
-        power source (e.g. be plugged into the 12 volt power adapter for power or power over usb: usb ports
+        The Raspberry Pi will need to be hard-wired into the seats and mirrors (rearview and side) ECU (Electronic Control Unit) and also connected to
+        the cars power source e.g. be plugged into the 12-volt power adapter for power or power over usb: usb ports
       </li>
   </ul><br>
 
     <h4>Functionality/Operation/Setup: </h4><br>
-    <h5>Initial Setup:</h5>
+    <h4>Initial Setup:</h4>
     <p>
-    Once everything is plugged in and hardwired (the Rasberry PI is plugged into power or USB and a display: to show UI) and the car (that is used by multiple people) is turned on for the first time with the external device (the Raspberry Pi) that will (have software that will) manage, store and run adjustments on the car’s driver’s seat, side and rear view mirrors for each dedicated driver, there is an initial setup wizard that is a part of the software. The initial setup wizard or initial setup UI that will show on the display will be as follows:   <br><br>
-    “Welcome to [TBC Software Name], what is your name?” <br><br>
+    Once everything is plugged in and hard-wired (the Raspberry PI is plugged into power or USB and a display: to show UI) and the car (that is used by
+    multiple people) is turned on for the first time with the external device (the Raspberry Pi) that will (have software that will) manage, store and run
+    adjustments on the car’s driver’s seat, side and rearview mirrors for each dedicated driver, there is an initial setup wizard that is a part of the software.
+    The initial setup wizard or initial setup U.I. that will show on the display will be as follows:   <br><br>
+    “Welcome to [TBC Software Name], what is your name?”
     “_________________” [Click box and use on screen keyboard/external keyboard to type name] <br>
     “Next” <br>
-
     [Next page] <br><br>
+
     “Please adjust your seat (position and back angle) and mirrors (side and rear view) to your liking and then click Save.” <br><br>
+
     [Will need to manually adjust electronic seat and back angle and mirrors (side and rear view) to your liking with buttons/switches that
     manufacture has provisioned] <br><br>
-
     “Save” <br><br>
     [Next page]  <br><br>
+
     “Your profile name and settings have been saved, on next startup, these will be automatically adjusted (if not already) to accustom you, thank you.” <br>
     The software (that is to run on the Raspberry PI) is to:  <br><br>
     </p>
     <ul class="text">
       <li class="text">Manage
         <ul class="text">
-          <li class="text">when changes are made manually on any one drivers profile/settings
+          <li class="text">When changes are made manually on any one drivers' profile/settings
             (the electronic driver seat is moved or the mirrors are moved; a notification will display in the software:<br>
             “Settings have been changed; would you like to save these for [Driver’s Profile Name]?”  <br>
             “Yes/No
@@ -155,7 +158,7 @@
              <td>“Setup New User” </td>
             </tr>
               </table>
-            <p>(refer to above Initial setup) <br>
+            <p>(refer to above Initial setup) <br><br>
               Once a driver’s profile is selected, the automatic adjustments for the driver’s seat, side mirrors and
               rear mirrors will be run.
             </p>
@@ -175,7 +178,7 @@
 
     <h4>Hardware:  </h4>
     <ul class="text">
-      <li class="text">Rasberry Pi versions 3-4 </li>
+      <li class="text">A Raspberry Pi varying between version 3-4 (suits USB boot capability, inputs, etc.) (Raspberry Pi Foundation, 2020)  </li>
       <li class="text">Cabling:
         <ul class="text">
           <li>Power:
@@ -188,7 +191,7 @@
               <ul>
                 <li class="text">USB to pin motor vehicle wiring adapter/OBD2 adapter/cable for connection to ECU
                   (Electronic Control Unit) for seat and mirrors </li>
-              </ul>
+                </ul>
           </li>
         </ul>
       </li>
@@ -209,30 +212,31 @@
 
 <article>
   <h3>Market/Target Audience: </h3>
-<p>Primary owners of one vehicle that will have multiple people driving their car/or the car they use regularly
+<p>Primary owners of one vehicle that will have multiple people driving their car/or the car they use regularly.
 </p>
 </article>
 
     <article>
       <h3>Project Outcome/Solution/Impact:  </h3>
-        <h2>Original Problem/Motivation: </h2>
+        <h4>Original Problem/Motivation: </h4>
         <p>
-          “When you have another person drive your car, they move the seat and mirrors and it can be annoying to change them back every
-          time when you go to drive your car. What if you could manage, store, and automatically adjust each drivers’ personal settings
-          of one car; the seat and mirrors to accustom the dedicated driver (at the time) on start up every time. Some newer cars have memory buttons
-          that save the driving seat and mirror (side and rear view) positions, but what if this could be implemented or integrated into almost any car of
-          the 21st century using Raspberry Pi technology with a developed software that stores, manages and actions adjustments?”
-        </p>
+          “When you have another person drive your car, they move the seat and mirrors, and it can be annoying to change them back every time
+          when you go to drive your car. What if you could manage, store, and automatically adjust each drivers’ personal settings of one car; the
+          seat and mirrors to accustom the dedicated driver (at the time) on start up every time. Some newer cars have memory buttons that save the driving
+          seat and mirror (side and rear view) positions, but what if this could be implemented or integrated into almost any car of the 21st century using
+          Raspberry Pi technology with a developed software that stores, manages and actions adjustments?” <br><br>
 
-        <ul class="text">
-          <li>If the project is successful, there will a functional system: an external system (external to the vehicle’s ECU’s (Electronic Control Unit)):
-            hardware and software that stores, manages and actions adjustments of the driver’s seat and the side and rear view mirrors in a
-            vehicle that will have multiple drivers. </li>
-            <li class="text">What does this mean for the intended audience? A convenient, time saving and effective solution to the annoying, time wasting hassle of
-              having to change the seat and mirrors back every time and making sure they are perfect after someone else drives the car </li>
-            <li class="text">With possibilities to be implemented and installed on commercial vehicles: fleet cars, work cars, etc. </li>
-            <li class="text">Integration into the vehicles key fob </li>
-        </ul>
+          If the project is successful, there will a functional system: an external system (external to the vehicle’s ECU’s (Electronic Control Unit)):
+          hardware and software that stores, manages and automatically actions adjustments of the driver’s seat and the side and rear view mirrors in a vehicle
+          that will have multiple drivers. <br><br>
+          <b>What does this mean for the intended audience?</b> <br>
+          A convenient, time saving and effective solution to the annoying, time wasting hassle of having to change the seat and mirrors back every time and making
+          sure they are perfect after someone else drives the car.
+        </p><br>
+          <h4>Possibilities: </h4>
+          <p>The project also extends to future possibilities, where system can be implemented and installed on commercial vehicles: fleet cars, work cars, etc.
+            The project also has the possibility to be integrated into a vehicles key fob, for convenient handheld use.
+          </p>
 </article>
 
   <article>
