@@ -1,0 +1,8 @@
+•	Everyone will continue to contribute to the Project Plan.
+•	Ahmet will edit Project Idea to become Project > Idea and Project > Plan as a template.
+•	Device is to be named based on a poll that Luke will set up.
+•	Luke and Rob will continue to work on the programming for the Raspberry Pi and consult with Ahmet as necessary.
+•	Our Aim for the project is to have complete software (for implementation in a Raspberry Pi) at the end of 14 weeks, ready for distribution via github. This shall be written up to the Project Plan. Our aim for 4 weeks is to have proof-of-concept ability to adjust seat and mirror positioning with a Raspberry Pi.
+•	Jack will continue to polish up the video presentation draft. Rob will contribute some artifacts for the project.
+•	Rob will complete a template for role purpose statements for use in the Roles section.
+•	Bibianna will consult with all members to help contribute to the Plans and Progress section (two to four pages! What!)
